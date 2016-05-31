@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_recorder" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Recorder" />
+        <item android:id="@+id/nav_cctv" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="CCTV" />
+        <item android:id="@+id/nav_intercom" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Intercom" />
+        <item android:id="@+id/nav_account" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Account" />
+        <item android:id="@+id/nav_ecart" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Shopping Cart" />
+        <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Logout" />
+        <item android:id="@+id/nav_contactus" android:icon="@android:drawable/ic_menu_share"
+            android:title="Contact Us" />
+        <item android:id="@+id/nav_aboutus" android:icon="@android:drawable/ic_menu_send"
+            android:title="About Us" />
+    </group>
+</menu>

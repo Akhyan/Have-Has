@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/tvi_dvr"
+            android:layout_gravity="center_horizontal|left|top"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tvi_dvr"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TVI DVR"
+            android:id="@+id/tTvidvr"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/nvr"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tvi_dvr"
+            android:scaleType="fitCenter"
+            android:background="@null" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NVR"
+            android:id="@+id/tNvr"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="70dp"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/uniview"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/uniview_kit"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            />
+        <!--src input the image from drawable
+            scaleType fit the image to the layout width and height
+            background @null means to change the background to white-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Univew "
+            android:id="@+id/tUniview"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contact Us"
+        android:id="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email:"
+        android:id="@+id/cuEmail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Phone:"
+        android:id="@+id/cuCall"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sydney_number"
+        android:id="@+id/cuNumber"
+        android:textColor="#1730d7"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp" />
+</RelativeLayout>
